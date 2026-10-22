@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Revisão</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Quiz Revisão Rápida</h1>
+        <!-- Mostra a pontuação salva no navegador -->
+        <p>Pontuação Total: <span id="display-pontuacao">0</span></p>
+    </header>
+
+    <main>
+        <section id="area-quiz">
+            <h2 id="texto-pergunta">Carregando a pergunta...</h2>
+            
+            <div class="grupo-entrada">
+                <label for="entrada-resposta">Sua resposta:</label>
+                <input type="text" id="entrada-resposta" placeholder="Digite a resposta aqui...">
+            </div>
+            
+            <button id="btn-responder">Responder</button>
+            <p id="mensagem-resultado"></p>
+            
+            <!-- Este botão fica escondido até a pessoa responder -->
+            <button id="btn-proxima" style="display: none;">Próxima Pergunta</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
