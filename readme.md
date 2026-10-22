@@ -10,6 +10,10 @@ O "Quiz Revisão Rápida" é uma aplicação web simples projetada para ajudar e
 
 ## 🛠️ Tecnologias Usadas
 
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
 * **HTML5:** Estruturação semântica da página (uso de tags como `<header>`, `<main>`, `<section>`).
 * **CSS3:** Estilização visual e responsividade para garantir leitura em celulares e computadores (sem o uso de frameworks externos).
 * **JavaScript (Vanilla):** Lógica principal do quiz, validação de entradas vazias e manipulação segura do DOM (utilizando estritamente `textContent`).
@@ -26,7 +30,6 @@ Para executar esta aplicação localmente e garantir o funcionamento correto de 
 3. Inicie um servidor local. Você pode usar uma das seguintes opções:
 
    * **VS Code:** Instale e utilize a extensão *Live Server*, clicando no botão "Go Live" na barra inferior.
-
    * **Python:** Abra o terminal na pasta do projeto e execute o comando `python -m http.server 8000`. Em seguida, abra o navegador e acesse `http://localhost:8000`.
 
 ## 🌐 Análise da Aba Rede (Network)
@@ -39,7 +42,5 @@ A imagem exibe as requisições (método GET) realizadas pelo navegador durante 
 ## 🤖 Uso de IA
 
 * **Ferramenta utilizada:** Google Gemini.
-
 * **O que foi pedido:** Foi solicitado auxílio para estruturar os textos da "Etapa 1: Proposta do App" com base nos requisitos do PDF da disciplina, e para gerar a base inicial do código (HTML semântico, CSS responsivo e a lógica em JavaScript puro para validação e uso do `localStorage`).
-
 * **O que foi alterado:** O texto da proposta foi revisado, adaptado e inserido no template em PDF com os meus dados acadêmicos. O código fornecido pela IA foi lido, testado através de um servidor local (onde as variáveis foram renomeadas e comentadas para melhor legibilidade) e os arquivos foram organizados e commitados passo a passo neste repositório. Foram feitas revisões rigorosas para garantir que a inserção de dados no DOM ocorresse exclusivamente via `textContent`, prevenindo qualquer vulnerabilidade.
