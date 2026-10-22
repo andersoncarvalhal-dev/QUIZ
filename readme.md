@@ -1,7 +1,7 @@
 # Quiz Revisão Rápida
 
 **Disciplina:** Desenvolvimento de Sistemas Web (EECP0036) - UFMA
-**Aluno:** Anderson Carvalhal Pimenta (Matrícula: 20250013630)
+**Aluno:** Anderson Carvalhal Pimenta
 **Trilha Escolhida:** Trilha C (Sem API externa)
 
 ## 📌 O que o app faz
